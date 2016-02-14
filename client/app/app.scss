@@ -17,7 +17,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 
 body {
   font-family: 'DINWeb', sans-serif;
-  margin: 80px 0;
+  margin: 80px 0 180px;
   background-color: #212121;
 }
 
@@ -41,6 +41,33 @@ a {
   padding: 0.2em 0;
 }
 
+.btn-flat {
+  border-radius: 0;
+}
+
+.btn-carrot {
+  background-color: rgba(230, 126, 34,1.0);
+  color: #ffffff;
+
+  &:hover {
+    background-color: rgba(230, 126, 34,0.8);
+    color: #ffffff;
+  }
+
+  &:focus {
+    background-color: rgba(230, 126, 34,1.0);
+    color: #ffffff;
+    outline: none;
+  }
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.extra-bold {
+  font-weight: 900;
+}
 // Component styles are injected through grunt
 // injector
 @import 'admin/admin.scss';
