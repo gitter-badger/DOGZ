@@ -1,0 +1,39 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import '../bower_components/bootstrap-social/bootstrap-social.scss';
+$fa-font-path: "../bower_components/font-awesome/fonts";
+@import '../bower_components/font-awesome/scss/font-awesome';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+/**
+ * App-wide Styles
+ */
+
+@font-face {
+  font-family: 'DINWeb';
+  src: url('/assets/fonts/DINWeb.woff') format('woff'),
+       url('/assets/fonts/DINWeb.ttf') format('truetype');
+}
+
+body {
+  font-family: 'DINWeb', sans-serif;
+  margin: 80px 0;
+  background-color: #212121;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+// Component styles are injected through grunt
+// injector
+@import 'admin/admin.scss';
+@import 'main/main.scss';
+@import '../components/footer/footer.scss';
+@import '../components/modal/modal.scss';
+@import '../components/navbar/navbar.scss';
+@import '../components/oauth-buttons/oauth-buttons.scss';
+// endinjector
