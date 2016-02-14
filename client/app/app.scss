@@ -21,6 +21,19 @@ body {
   background-color: #212121;
 }
 
+a {
+  color: #565656;
+
+  &:hover {
+    color: #dfdfdf;
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: #565656;
+  }
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;

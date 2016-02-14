@@ -11,4 +11,25 @@ footer {
     border-top: 1px solid #181818;
   }
 
+  .fa-social {
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  .footer-bold {
+    font-weight: 900;
+  }
+
+  ul {
+
+    &.list-unstyled {
+
+      li {
+        margin-bottom: 5px;
+      }
+
+    }
+
+  }
+
 }
