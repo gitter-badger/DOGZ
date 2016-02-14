@@ -43,7 +43,11 @@
 .dogs-database-section {
   text-align: center;
   color: #b0b0b0;
-  margin: 30px 0;
+  padding: 30px 0;
+
+  p {
+    margin-bottom: 30px;
+  }
 
   figure {
 
@@ -70,11 +74,25 @@
 
 }
 
-.community-section {
+.about-us-section {
   text-align: center;
   background-color: #ffffff;
   color: #565656;
-  margin: 30px 0;
+  padding: 80px 0;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+
+.community-section {
+  text-align: center;
+  color: #b0b0b0;
+  padding: 30px 0;
+
+  h1 {
+    margin-bottom: 30px;
+  }
 
   figure {
 

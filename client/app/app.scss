@@ -17,7 +17,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 
 body {
   font-family: 'DINWeb', sans-serif;
-  margin: 80px 0 180px;
+  margin: 80px 0 0;
   background-color: #212121;
 }
 
@@ -32,6 +32,10 @@ a {
   &:focus {
     color: #565656;
   }
+}
+
+p {
+  font-size: 18px;
 }
 
 .browserupgrade {
