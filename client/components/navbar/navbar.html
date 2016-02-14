@@ -1,7 +1,7 @@
 <div class="navbar navbar-default navbar-static-top" ng-controller="NavbarController">
   <div class="container">
     <div class="pull-left">
-      <div collapse="nav.isCollapsed" class="navbar-collapse collapse">
+      <div collapse="nav.isCollapsed" class="navbar-collapse yamm collapse">
         <ul class="nav navbar-nav">
           <li ng-repeat="item in nav.menu" ui-sref-active="active">
             <a ui-sref="{{item.state}}">{{item.title}}</a>
@@ -9,7 +9,21 @@
           <li ng-show="nav.isAdmin()" ui-sref-active="active"><a ui-sref="admin">Admin</a></li>
         </ul>
 
-        <ul class="nav navbar-nav navbar-left">
+        <ul class="nav navbar-nav">
+          <li class="dropdown yamm-fw">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li>a</li>
+              <li>a</li>
+              <li>a</li>
+              <li>a</li>
+              <li>a</li>
+              <li>a</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav yamm navbar-nav">
           <li><a>Menu <i class="fa fa-angle-down"></i></a></li>
         </ul>
       </div>
