@@ -3,6 +3,7 @@
 angular.module('dogsApp', [
   'dogsApp.auth',
   'dogsApp.admin',
+  'dogsApp.community',
   'dogsApp.constants',
   'ngCookies',
   'ngResource',

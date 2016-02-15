@@ -74,6 +74,11 @@ section {
 // Component styles are injected through grunt
 // injector
 @import 'admin/admin.scss';
+@import 'community/breeding/breeding.scss';
+@import 'community/competition/exhibition.scss';
+@import 'community/exhibition/exhibition.scss';
+@import 'community/missing/missing.scss';
+@import 'community/rescue/rescue.scss';
 @import 'main/main.scss';
 @import '../components/footer/footer.scss';
 @import '../components/modal/modal.scss';
