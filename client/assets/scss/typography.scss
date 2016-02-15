@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@font-face {
+  font-family: 'DINWeb';
+  src: url('/assets/fonts/DINWeb.woff') format('woff'),
+  url('/assets/fonts/DINWeb.ttf') format('truetype');
+}
+
+.light {
+  font-weight: 100;
+}
+
+.normal {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 900;
+}

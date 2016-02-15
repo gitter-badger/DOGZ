@@ -4,9 +4,9 @@ footer {
     text-align: left;
     padding: 15px 0;
     width: 100%;
-    background: #1C1C1C;
+    background: $base-dark-color;;
     color: #666;
-    border-top: 1px solid #181818;
+    border-top: 1px solid $base-darker-color;
   }
 
   .fa-social {

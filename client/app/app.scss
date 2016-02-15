@@ -3,34 +3,31 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import '../bower_components/bootstrap-social/bootstrap-social.scss';
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import '../bower_components/font-awesome/scss/font-awesome';
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+@import '../assets/scss/config';
+@import '../assets/scss/typography';
+
 
 /**
  * App-wide Styles
  */
 
-@font-face {
-  font-family: 'DINWeb';
-  src: url('/assets/fonts/DINWeb.woff') format('woff'),
-       url('/assets/fonts/DINWeb.ttf') format('truetype');
-}
-
 body {
   font-family: 'DINWeb', sans-serif;
   margin: 80px 0 0;
-  background-color: #212121;
+  background-color: $base-color;
 }
 
 a {
-  color: #565656;
+  color: $font-color-dark;
 
   &:hover {
-    color: #dfdfdf;
+    color: $font-color-lighter;
     text-decoration: none;
   }
 
   &:focus {
-    color: #565656;
+    color: $font-color-dark;
   }
 }
 
@@ -50,17 +47,17 @@ p {
 }
 
 .btn-carrot {
-  background-color: rgba(230, 126, 34,1.0);
-  color: #ffffff;
+  background-color: $base-main-color;
+  color: $font-color-lighter;
 
   &:hover {
-    background-color: rgba(230, 126, 34,0.8);
-    color: #ffffff;
+    background-color: $base-darker-main-color;
+    color: $font-color-lighter;
   }
 
   &:focus {
-    background-color: rgba(230, 126, 34,1.0);
-    color: #ffffff;
+    background-color: $base-main-color;
+    color: $font-color-lighter;
     outline: none;
   }
 }
@@ -69,9 +66,6 @@ p {
   margin-bottom: 30px;
 }
 
-.extra-bold {
-  font-weight: 900;
-}
 // Component styles are injected through grunt
 // injector
 @import 'admin/admin.scss';

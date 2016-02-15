@@ -1,28 +1,26 @@
-
 .navbar {
   position: fixed;
   top: 0;
   min-height: 60px;
   width: 100%;
   padding-top: 5px;
-  background: #1C1C1C;
+  background: $base-dark-color;
   color: #666;
-  border-bottom: 1px solid #181818;
+  border-bottom: 1px solid $base-darker-color;
 
   .navbar-brand {
-
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5em;
-    color: #fff;
+    color: $font-color-lighter;
     position: absolute;
     left: calc(50% - 65px);
 
     &:hover {
-      color: #fff;
+      color: $font-color-lighter;
     }
 
     &:focus {
-      color: #fff;
+      color: $font-color-lighter;
     }
 
   }
@@ -32,11 +30,11 @@
     li {
 
       a {
-        color: #b0b0b0;
+        color: $font-color-light;
         padding: 15px 20px;
 
         &:hover {
-          color: #dfdfdf;
+          color: $font-color-lighter;
         }
 
         i {
