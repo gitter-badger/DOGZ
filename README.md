@@ -1,5 +1,7 @@
 # dogs
 
+[![Join the chat at https://gitter.im/Abdizriel/DOGZ](https://badges.gitter.im/Abdizriel/DOGZ.svg)](https://gitter.im/Abdizriel/DOGZ?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.3.0.
 
 ## Getting Started
